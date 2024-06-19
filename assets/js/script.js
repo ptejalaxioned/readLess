@@ -7,6 +7,7 @@ $(document).ready(function () {
       $(list).addClass("li-read-more");
       $(list.children[3]).addClass("read-less");
       list.children[3].innerHTML ="Read Less"
+      $('.dots').hide()
     } else {
       $(list.children[2].lastElementChild).hide(1000);
       $(list).removeClass("li-read-more");
