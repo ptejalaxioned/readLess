@@ -230,6 +230,7 @@ ul {
 
 li {
   width: 31%;
+  height: 293px;
   padding: 20px;
   display: flex;
   flex-direction: column;
